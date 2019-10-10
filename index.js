@@ -2,7 +2,7 @@ const http = require('http');
 
 const server = http.createServer((request, response) => {
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("Hello Dockerfile test World!");
+    response.end("Hello Dockerfile test World! and another update");
 });
 
 const port = process.env.PORT || 1337;
